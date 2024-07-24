@@ -1,0 +1,14 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "this to do applicatin will have the following features \r * it can add todo\r * it can read todos\r * it can mark the todos done",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saumyajain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
