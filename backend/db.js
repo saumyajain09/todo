@@ -10,11 +10,11 @@ const { string, boolean } = require("zod");
 //have your mongodb url handy 
 
 // create the schema
-
-const todoSchema = mongoose.Schema({"mongodb+srv://saumyajain09:*****@cluster0.c4kmxzv.mongodb.net"
+mongoose.connect("mongodb+srv://saumyajain09:*****@cluster0.c4kmxzv.mongodb.net")
+const todoSchema = mongoose.Schema({
 //in a professional project put it .env folder
 
-    title: string,
+    title : string,
     description: string,
     completed: boolean
 })
